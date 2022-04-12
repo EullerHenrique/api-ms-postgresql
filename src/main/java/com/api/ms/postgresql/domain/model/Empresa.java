@@ -141,6 +141,7 @@ public class Empresa implements Serializable {
     @OneToMany(mappedBy = "empresa")
     private Set<Contrato> contratos;
 
+    //https://www.baeldung.com/hibernate-one-to-many
 
     @JsonView({Views.EmpresaView.class, Views.ClinteView.class, Views.ContratoView.class})
 

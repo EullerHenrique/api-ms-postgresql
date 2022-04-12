@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiSerasaMsApplication {
+public class ApiMsPostgresql {
 
     public static void main(String[] args) {
-        SpringApplication.run(ApiSerasaMsApplication.class, args);
+        SpringApplication.run(ApiMsPostgresql.class, args);
     }
 
 }
