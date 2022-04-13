@@ -8,8 +8,8 @@ spring:
       hibernate:
         format_sql: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/serasa
-    username: postgres
+    url: jdbc:postgresql://localhost:5432/db
+    username: euller
     password: 12345
     driverClassName: org.postgresql.Driver
   sql:
